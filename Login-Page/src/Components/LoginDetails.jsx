@@ -1,9 +1,13 @@
 import './LoginDetails.css'
+import backgroundImage from '../assets/background-image.jpg'
 
 function LoginDetails() {
 
     return (
-        <>
+        <div className='main-container'>
+            <div className='image-container'>
+                <img src={backgroundImage} className="fit-screen-height" alt="img" />
+            </div>
             <div className='login-container'>
                 <h2>Welcome Back!</h2>
                 <p>Track Your Expenses with Xpense Tracker</p>
@@ -33,7 +37,7 @@ function LoginDetails() {
                     </div>
                 </form>
             </div>
-        </>
+        </div>
     )
 }
 

@@ -1,10 +1,10 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-:root{
+:root {
     --primary-accent-color: #3080c1;
     --secondary-accent-color: #183059;
     --primary-text-color: #FFFFFF;
@@ -13,60 +13,75 @@
     --secondary-grey-shade: #aeaeaeb7;
 }
 
-body{
+body {
     font-family: serif;
     background-color: var(--primary-accent-color);
     color: var(--primary-text-color);
-    background: linear-gradient(
-    to bottom,
-    #3080c1 0%,
-    #183059 100%
-
-  );
+    background: linear-gradient(to bottom,
+            #3080c1 0%,
+            #183059 100%);
 }
 
-p{
+p {
     color: var(--secondary-text-color);
     padding: 5px;
 }
 
+.main-container{
+    display: flex;
+}
 
-.login-container{
+.image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.fit-screen-height {
+    height: 100%;
+    width: 700px;
+    max-width: 100%;
+}
+
+
+.login-container {
     padding-left: 300px;
     padding-top: 200px;
 }
 
-.form-label{
-    color:black;
+.form-label {
+    color: black;
     font-weight: 700;
 }
 
-.forgot-pass{
+.forgot-pass {
     padding-left: 60px;
     color: rgb(19, 3, 3);
 }
 
-.forgot-pass:hover{
+.forgot-pass:hover {
     color: var(--primary-text-color);
 }
 
-.form-check-input:checked{
+.form-check-input:checked {
     background-color: black;
-    border-color: black ;
+    border-color: black;
 }
 
-.create-account{
+.create-account {
     margin-left: 110px;
 }
-.create-account p{
+
+.create-account p {
     display: inline;
 }
 
-.create-account a{
+.create-account a {
     /* margin-left: 110px; */
     color: rgb(19, 3, 3);
 }
 
-.create-account a:hover{
+.create-account a:hover {
     color: var(--primary-text-color);
 }
