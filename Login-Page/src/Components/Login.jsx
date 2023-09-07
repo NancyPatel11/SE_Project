@@ -1,8 +1,7 @@
-import './LoginDetails.css'
+import './Login.css'
 import backgroundImage from '../assets/background-image.jpg'
 
 function LoginDetails() {
-
     return (
         <div className='main-container'>
             <div className='image-container'>
