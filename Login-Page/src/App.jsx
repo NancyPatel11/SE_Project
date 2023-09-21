@@ -4,9 +4,7 @@ import ProjectHome from './Components/ProjectHome'
 
 function App() {
   return (
-    <div className='container'>
-      <ProjectHome />
-    </div>
+   <ProjectHome />
   )
 }
 
